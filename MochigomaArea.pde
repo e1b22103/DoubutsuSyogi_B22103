@@ -15,6 +15,6 @@ class MochigomaArea extends AbstractArea {
       AbstractKoma koma = komaList.getKomaFromPlace(this.posX, i);
       if (koma==null) return i;
     }
-    return -1;
+    return -1;//空きが無い場合
   }
 }
